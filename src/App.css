@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  text-align: center;  
+}
+.game {
+  padding: 40px;
+}
+
+.game .table-row .table-cell {
+  position: relative;
+  height: 40px;;
+  width: 40px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.game-start {
+  width: 15%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 20px 10px;   
+}
+li {
+  text-align: left
+}
+
+.table-cell .icon {
+  content: ' ';
+  display: block;
+  background-image: url('./asset/images/icon-question.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.table-cell.IconDimond .icon {
+  content: ' ';
+  display: block;
+  background-image: url('./asset/images/icon-diamond.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.table-cell.iconArrow .icon{
+  content: ' ';
+  display: block;
+  background-image: url('./asset/images/icon-arrow.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.table-cell.noIcon .icon{
+  content: ' ';
+  display: block;
+  background-image: none; 
+}
