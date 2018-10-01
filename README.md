@@ -1,6 +1,6 @@
-# dimond-sweeper
+# dimond-sweeper using ReactJS
 
-setps to run this game:
+# setps to run this game:
 1. Install Node.js 
 2. npm install
 3. npm start
